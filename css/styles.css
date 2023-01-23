@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+/*index*/
+.bodyIndex {
+  width: 100%; }
+  .bodyIndex .headerIndex {
+    width: 100%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+    .bodyIndex .headerIndex .bodyIndex_h1 {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      color: darkviolet;
+      font-size: 50px; }
+      .bodyIndex .headerIndex .bodyIndex_h1 .bodyIndex_h1_span {
+        color: black;
+        background-color: darkviolet; }
+    .bodyIndex .headerIndex .bodyIndex_contenedor_botones {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center; }
+      .bodyIndex .headerIndex .bodyIndex_contenedor_botones .botonRegistrarse,
+      .bodyIndex .headerIndex .bodyIndex_contenedor_botones .botonIniciarSesion {
+        width: 100px;
+        height: 50px;
+        color: white;
+        background-color: darkviolet;
+        border: 2px solid;
+        border-color: black; }
+      .bodyIndex .headerIndex .bodyIndex_contenedor_botones .botonEliminarRegistro {
+        width: 100px;
+        height: 50px;
+        color: white;
+        background-color: black;
+        border: 2px solid;
+        border-color: darkviolet; }
+
+/*zapatillas*/
+.bodyZapatillas {
+  width: 100%; }
+  .bodyZapatillas .bodyZapatillas_header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center; }
+    .bodyZapatillas .bodyZapatillas_header .bodyZapatillas_h1 {
+      color: darkviolet;
+      font-size: 50px; }
+      .bodyZapatillas .bodyZapatillas_header .bodyZapatillas_h1 .bodyZapatillas_h1_span {
+        color: black;
+        background-color: darkviolet; }
+    .bodyZapatillas .bodyZapatillas_header #cerrarSesion {
+      height: 50px;
+      color: white;
+      background-color: black;
+      border: 2px solid;
+      border-color: darkviolet; }
+  .bodyZapatillas .bodyZapatillas_main .contenedorCheckbox {
+    height: 100px;
+    text-align: center; }
+  .bodyZapatillas .bodyZapatillas_main #contenedorPrincipal {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 50px; }
+    .bodyZapatillas .bodyZapatillas_main #contenedorPrincipal .contenedorProducto {
+      text-align: center;
+      margin: auto;
+      width: 200px;
+      height: auto;
+      display: grid;
+      grid-template-rows: 60px 200px 50px 50px 100px;
+      border: 2px solid;
+      border-color: black;
+      background-color: darkviolet; }
+      .bodyZapatillas .bodyZapatillas_main #contenedorPrincipal .contenedorProducto .nombreProducto,
+      .bodyZapatillas .bodyZapatillas_main #contenedorPrincipal .contenedorProducto .precioProducto,
+      .bodyZapatillas .bodyZapatillas_main #contenedorPrincipal .contenedorProducto .ofertaProducto {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black; }
+      .bodyZapatillas .bodyZapatillas_main #contenedorPrincipal .contenedorProducto img {
+        width: 200px;
+        height: 200px;
+        margin: auto; }
+      .bodyZapatillas .bodyZapatillas_main #contenedorPrincipal .contenedorProducto #botonComprar {
+        width: 150px;
+        height: 45px;
+        margin: auto;
+        color: darkviolet;
+        background-color: black; }
+      .bodyZapatillas .bodyZapatillas_main #contenedorPrincipal .contenedorProducto #botonComprar:hover {
+        color: darkviolet;
+        background-color: white; }
+      .bodyZapatillas .bodyZapatillas_main #contenedorPrincipal .contenedorProducto #botonComprar:active {
+        color: darkviolet;
+        background-color: lightgray; }

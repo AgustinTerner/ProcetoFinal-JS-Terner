@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "name": "Nike Revolution 5",
+        "price": 15000,
+        "stock": true,
+        "ofert": true,
+        "ofertPercent": 15,
+        "img": "./imagenes/nike-revolution-5.jpeg",
+        "trademark": "NIKE"
+    },
+    {
+        "id": 2,
+        "name": "Nike Air Zoom Pegasus",
+        "price": 35000,
+        "stock": true,
+        "ofert": true,
+        "ofertPercent": 22,
+        "img": "./imagenes/nike-air-zoom-pegasus.jpeg",
+        "trademark": "NIKE"
+    },
+    {
+        "id": 3,
+        "name": "Nike Revolution 6",
+        "price": 19000,
+        "stock": true,
+        "ofert": true,
+        "ofertPercent": 30,
+        "img": "./imagenes/nike-revolution-6.jpeg",
+        "trademark": "NIKE"
+    },
+    {
+        "id": 4,
+        "name": "Nike Air Max",
+        "price": 24000,
+        "stock": true,
+        "ofert": false,
+        "ofertPercent": 0,
+        "img": "./imagenes/nike-air-max.jpeg",
+        "trademark": "NIKE"
+    },
+    {
+        "id": 5,
+        "name": "Nike Waffle Debut",
+        "price": 24000,
+        "stock": true,
+        "ofert": false,
+        "ofertPercent": 0,
+        "img": "./imagenes/nike-waffle-debut.jpeg",
+        "trademark": "NIKE"
+    },
+    {
+        "id": 6,
+        "name": "Nike Classic",
+        "price": 24000,
+        "stock": true,
+        "ofert": false,
+        "ofertPercent": 0,
+        "img": "./imagenes/nike-classic.jpeg",
+        "trademark": "NIKE"
+    },
+    {
+        "id": 7,
+        "name": "Adidas Ultra Boost",
+        "price": 18000,
+        "stock": true,
+        "ofert": false,
+        "ofertPercent": 0,
+        "img": "./imagenes/adidas-ultraboost.jpeg",
+        "trademark": "ADIDAS"
+    },
+    {
+        "id": 8,
+        "name": "Adidas Forum Low",
+        "price": 28000,
+        "stock": true,
+        "ofert": true,
+        "ofertPercent": 15,
+        "img": "./imagenes/adidas-forum-low.webp",
+        "trademark": "ADIDAS"
+    },
+    {
+        "id": 9,
+        "name": "Adidas Breaknet",
+        "price": 25000,
+        "stock": true,
+        "ofert": false,
+        "ofertPercent": 0,
+        "img": "./imagenes/adidas-breaknet.webp",
+        "trademark": "ADIDAS"
+    },
+    {
+        "id": 10,
+        "name": "Adidas Running",
+        "price": 30000,
+        "stock": true,
+        "ofert": true,
+        "ofertPercent": 30,
+        "img": "./imagenes/adidas-running.webp",
+        "trademark": "ADIDAS"
+    }
+]
